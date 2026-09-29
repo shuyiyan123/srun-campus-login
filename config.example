@@ -1,0 +1,6 @@
+# 复制本文件为 ~/.config/srun-login/config，并填入你自己的信息。
+# 门户地址：未认证时浏览器访问任意外网站点，被重定向到的登录页域名。
+#   例如形如 http://eportal.example.edu.cn
+PORTAL_HOST=http://eportal.example.edu.cn
+USERNAME=你的学号或工号
+PASSWORD=你的校园网密码

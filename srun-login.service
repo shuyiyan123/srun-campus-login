@@ -1,0 +1,9 @@
+[Unit]
+Description=Campus network auto login (srun portal)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/YOUR_USERNAME/.local/bin/srun-login.py
+

@@ -1,0 +1,5 @@
+# 真实配置（含用户名密码）不提交
+config
+.DS_Store
+__pycache__/
+*.pyc
