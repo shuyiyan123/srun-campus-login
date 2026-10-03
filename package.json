@@ -1,0 +1,12 @@
+{
+  "name": "srun-campus-login",
+  "version": "2.0.0",
+  "description": "深澜 srun 校园网自动登录（浏览器自动化方案 + 通用 Python 方案）",
+  "main": "srun_login.js",
+  "scripts": {
+    "login": "node srun_login.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}

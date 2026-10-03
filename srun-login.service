@@ -1,9 +1,9 @@
 [Unit]
-Description=Campus network auto login (srun portal)
+Description=Campus network auto login (srun portal, browser)
 After=network-online.target
 Wants=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=/home/YOUR_USERNAME/.local/bin/srun-login.py
-
+# 把路径改成你实际安装 srun_login.js 的位置；node_modules 需要和它同目录
+ExecStart=/usr/bin/node /home/YOUR_USERNAME/.local/share/srun-campus-login/srun_login.js

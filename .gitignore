@@ -1,5 +1,6 @@
 # 真实配置（含用户名密码）不提交
 config
+node_modules/
 .DS_Store
 __pycache__/
 *.pyc
